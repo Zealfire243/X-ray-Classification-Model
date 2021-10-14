@@ -7,9 +7,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-chest_xray/
-PreUpdatedModels/
-UpdatedModels/
 .Python
 build/
 develop-eggs/
@@ -79,6 +76,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+chest_xray/
+PreUpdatedModels/
+UpdatedModels/
+FinalModels/
 
 # IPython
 profile_default/
