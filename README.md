@@ -1,4 +1,4 @@
-.png# x-ray-classifaction-model
+# x-ray-classifaction-model
 
 ## Overview
 I have been tasked to build a deep neural network to train on a data set of x-ray images of pediatric patients to identify whether or not they have pneumonia. This data is sourced from Kermany et al. on Mendeley, however I personally used a version on Kaggle due to it being easier to use. The data originally consists of 5216 images in the training set, 624 in the test set, and 16 for the validation set. 
@@ -27,7 +27,7 @@ The model that performed the best ended up being a simple residual network. I tr
 
 ### Lime Results
 ![BasicX-ray](./imgs/og_image_limecheck.png)
-![MaskX-ray](./imgs/mask_image_limecheck.png)
+![MaskX-ray](./imgs/image_mask_limecheck.png)
 ![HeatmapX-ray](./imgs/heatmap_limecheck.png)
 
 ## Whats Next
