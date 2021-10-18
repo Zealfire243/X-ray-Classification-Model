@@ -10,40 +10,40 @@ I am going through and checking different deep neural network architectures to s
 The model that performed the best ended up being a simple residual network. I tried to expand the res-net in order to better predict but ended up overloading my cpu and was unable to run it. I ended up only being able to generate approx. 75,000 trainable parameters compared to the 2,000,000 trainable parameters I generated with the simple res-net. With a validation accuracy of 78% the simple res-net is the best choice to predict whether or not a patient has pneumonia. 
 
 ### PreUpdated Results
-![BasicConv2D_loss](.'/imgs/pre_results_2_loss.png')
-![BasicConv2D_acc](.'/imgs/pre_results_2_acc.png')
-![AlexNet_loss](.'/imgs/pre_results_3_loss.png')
-![AlexNet_acc](.'/imgs/pre_results_3_acc.png')
-![SimpleResNet_loss](.'/imgs/pre_results_4_loss')
-![SimpleResNet_acc](.'/imgs/pre_results_4_acc')
+![BasicConv2D_loss]('./imgs/pre_results_2_loss.png')
+![BasicConv2D_acc]('./imgs/pre_results_2_acc.png')
+![AlexNet_loss]('./imgs/pre_results_3_loss.png')
+![AlexNet_acc]('./imgs/pre_results_3_acc.png')
+![SimpleResNet_loss]('./imgs/pre_results_4_loss')
+![SimpleResNet_acc]('./imgs/pre_results_4_acc')
 
 ### Updated Results
-![AlexNet_loss](.'/imgs/updated_results_3_loss')
-![AlexNet_acc](.'/imgs/updated_results_3_acc')
-![SimpleResNet_loss](.'/imgs/updated_results_4_loss')
-![SimpleResNet_acc](.'/imgs/updated_results_4_acc')
-![ResNet_loss](.'/imgs/results_5_loss')
-![ResNet_acc](.'/imgs/results_5_acc')
+![AlexNet_loss]('./imgs/updated_results_3_loss')
+![AlexNet_acc]('./imgs/updated_results_3_acc')
+![SimpleResNet_loss]('./imgs/updated_results_4_loss')
+![SimpleResNet_acc]('./imgs/updated_results_4_acc')
+![ResNet_loss]('./imgs/results_5_loss')
+![ResNet_acc]('./imgs/results_5_acc')
 
 ### Lime Results
-![BasicX-ray](.'/imgs/og_image_limecheck.png')
-![MaskX-ray](.'/imgs/mask_image_limecheck.png')
-![HeatmapX-ray](.'/imgs/heatmap_limecheck.png')
+![BasicX-ray]('./imgs/og_image_limecheck.png')
+![MaskX-ray]('./imgs/mask_image_limecheck.png')
+![HeatmapX-ray]('./imgs/heatmap_limecheck.png')
 
 ## Whats Next
 The next step is to add regularization layers in order to combat overfitting which was found in nearly every model. Then the best idea would be to get in contact with a radiologist and go over all the lime results to make sure the model is using the correct parts of the images to predict. 
 
 ## For More Information
-For a more detailed analysis of the data see my full report: [Report](.'/limecheck.ipynb')
+For a more detailed analysis of the data see my full report: [Report]('./limecheck.ipynb')
 
 For additional information see: 
-[FinalModel](.'/FinalModel.ipynb')
-[PreUpdated](.'/MaidenVoyage.ipynb')
-[Updated](.'/UpdatedValidation.ipynb')
+[FinalModel]('./FinalModel.ipynb')
+[PreUpdated]('./MaidenVoyage.ipynb')
+[Updated]('./UpdatedValidation.ipynb')
 
 
 For a short presentation see:
-[My Presentaiion](./Presentation.pdf')
+[My Presentation]('./Presentation.pdf')
 For any additional questions, please contact Ethan Helder at helderethan@gmail.com
 
 ## Repository Structure
