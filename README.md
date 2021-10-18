@@ -1,4 +1,4 @@
-# x-ray-classifaction-model
+.png# x-ray-classifaction-model
 
 ## Overview
 I have been tasked to build a deep neural network to train on a data set of x-ray images of pediatric patients to identify whether or not they have pneumonia. This data is sourced from Kermany et al. on Mendeley, however I personally used a version on Kaggle due to it being easier to use. The data originally consists of 5216 images in the training set, 624 in the test set, and 16 for the validation set. 
@@ -14,16 +14,16 @@ The model that performed the best ended up being a simple residual network. I tr
 ![BasicConv2D_acc](./imgs/pre_results_2_acc.png)
 ![AlexNet_loss](./imgs/pre_results_3_loss.png)
 ![AlexNet_acc](./imgs/pre_results_3_acc.png)
-![SimpleResNet_loss](./imgs/pre_results_4_loss)
-![SimpleResNet_acc](./imgs/pre_results_4_acc)
+![SimpleResNet_loss](./imgs/pre_results_4_loss.png)
+![SimpleResNet_acc](./imgs/pre_results_4_acc.png)
 
 ### Updated Results
-![AlexNet_loss](./imgs/updated_results_3_loss)
-![AlexNet_acc](./imgs/updated_results_3_acc)
-![SimpleResNet_loss](./imgs/updated_results_4_loss)
-![SimpleResNet_acc](./imgs/updated_results_4_acc)
-![ResNet_loss](./imgs/results_5_loss)
-![ResNet_acc](./imgs/results_5_acc)
+![AlexNet_loss](./imgs/updated_results_3_loss.png)
+![AlexNet_acc](./imgs/updated_results_3_acc.png)
+![SimpleResNet_loss](./imgs/updated_results_4_loss.png)
+![SimpleResNet_acc](./imgs/updated_results_4_acc.png)
+![ResNet_loss](./imgs/results_5_loss.png)
+![ResNet_acc](./imgs/results_5_acc.png)
 
 ### Lime Results
 ![BasicX-ray](./imgs/og_image_limecheck.png)
