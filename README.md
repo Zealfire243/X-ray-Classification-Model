@@ -10,36 +10,36 @@ I am going through and checking different deep neural network architectures to s
 The model that performed the best ended up being a simple residual network. I tried to expand the res-net in order to better predict but ended up overloading my cpu and was unable to run it. I ended up only being able to generate approx. 75,000 trainable parameters compared to the 2,000,000 trainable parameters I generated with the simple res-net. With a validation accuracy of 78% the simple res-net is the best choice to predict whether or not a patient has pneumonia. 
 
 ### Pre-Updated Validation Set Results
-BasicConv2D:
+##### BasicConv2D:
 ![BasicConv2D_loss](./imgs/pre_results_2_loss.png)
 ![BasicConv2D_acc](./imgs/pre_results_2_acc.png)
 
 ***
 
-AlexNet:
+##### AlexNet:
 ![AlexNet_loss](./imgs/pre_results_3_loss.png)
 ![AlexNet_acc](./imgs/pre_results_3_acc.png)
 
 ***
 
-SimpleResNet:
+##### SimpleResNet:
 ![SimpleResNet_loss](./imgs/pre_results_4_loss.png)
 ![SimpleResNet_acc](./imgs/pre_results_4_acc.png)
 
 ### Post-Updated Validation Set Results
-AlexNet:
+##### AlexNet:
 ![AlexNet_loss](./imgs/updated_results_3_loss.png)
 ![AlexNet_acc](./imgs/updated_results_3_acc.png)
 
 ***
 
-SimpleResNet:
+##### SimpleResNet:
 ![SimpleResNet_loss](./imgs/updated_results_4_loss.png)
 ![SimpleResNet_acc](./imgs/updated_results_4_acc.png)
 
 ***
 
-ResNet:
+##### ResNet:
 ![ResNet_loss](./imgs/results_5_loss.png)
 ![ResNet_acc](./imgs/results_5_acc.png)
 
