@@ -1,4 +1,4 @@
-# x-ray-classifaction-model
+# X-ray Classifaction Model
 
 ## Overview
 I have been tasked to build a deep neural network to train on a data set of x-ray images of pediatric patients to identify whether or not they have pneumonia. This data is sourced from Kermany et al. on Mendeley, however I personally used a version on Kaggle due to it being easier to use. The data originally consists of 5216 images in the training set, 624 in the test set, and 16 in the validation set. 
@@ -54,13 +54,13 @@ The next step is to add regularization layers in order to combat overfitting whi
 ## For More Information
 For a more detailed analysis of the data see my full report:
 
-* [Report](./limecheck.ipynb)
+* [Report](./Notebooks/Report.ipynb)
 
 For additional information see:  
 
-* [Final Model Notebook](./FinalModel.ipynb)
-* [Pre-Updated Validation Set Notebook](./MaidenVoyage.ipynb)
-* [Post-Updated Validation Set Notebook](./UpdatedValidation.ipynb)
+* [Final Model Notebook](./Notebooks/FinalModel.ipynb)
+* [Pre-Updated Validation Set Notebook](./Notebooks/MaidenVoyage.ipynb)
+* [Post-Updated Validation Set Notebook](./Notebooks/UpdatedValidation.ipynb)
 
 
 For a short presentation see:  
@@ -73,10 +73,12 @@ For any additional questions, please contact Ethan Helder at helderethan@gmail.c
 
 ```
     chest_xray                <- folder containing all data sets
-    Img_paths
+    Img_paths                 
     imgs                      <- Generated from code
-    limecheck.ipynb           <- Notebook with final conclusions 
-    FinalModel.ipynb          
-    MaidenVoyage.ipynb
-    UpdateValidation.ipynb
+    Notebooks                 <- Folder containing all notebooks      
+        Report.ipynb          <- Notebook with final conclusions 
+        FinalModel.ipynb          
+        MaidenVoyage.ipynb
+        UpdateValidation.ipynb
     README.md                 <- The top-level README for reviewers of this project
+    Presentation.pdf          <- Non-technical presentation
