@@ -65,7 +65,7 @@ For additional information see:
 
 For a short presentation see:  
 
-* [My Presentation](./Presentation.pdf)
+* [My Presentation](./X-ray_Classification_Presentation.pdf)
 
 For any additional questions, please contact Ethan Helder at helderethan@gmail.com
 
@@ -81,4 +81,4 @@ For any additional questions, please contact Ethan Helder at helderethan@gmail.c
         MaidenVoyage.ipynb
         UpdateValidation.ipynb
     README.md                 <- The top-level README for reviewers of this project
-    Presentation.pdf          <- Non-technical presentation
+    X-ray_Classification_Presentation.pdf          <- Non-technical presentation
