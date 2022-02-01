@@ -1,4 +1,4 @@
-# X-ray Classifaction Model
+# X-ray Classification Model
 
 ## Overview
 I have been tasked to build a deep neural network to train on a data set of x-ray images of pediatric patients to identify whether or not they have pneumonia. This data is sourced from Kermany et al. on Mendeley, however I personally used a version on Kaggle due to it being easier to use. The data originally consists of 5216 images in the training set, 624 in the test set, and 16 in the validation set. 
